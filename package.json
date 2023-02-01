@@ -1,7 +1,6 @@
 {
   "name": "resume",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://helenagingembre.github.io/Resume/",
   "dependencies": {
     "@actions/core": "^1.10.0",
