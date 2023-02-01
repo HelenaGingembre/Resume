@@ -1,0 +1,50 @@
+.container {
+  padding: 90px 50px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.profession {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--accentColor);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.8;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.71;
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.09;
+}
+
+.subTitle {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.typeProject {
+  color: var(--accentColor);
+}
+
+.list {
+  margin-bottom: 15px;
+}

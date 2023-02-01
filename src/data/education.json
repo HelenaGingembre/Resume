@@ -1,0 +1,15 @@
+[
+  {
+    "id": "id-1",
+    "university": "GoIT",
+    "label": "Certificate Course in Full stack developer",
+    "time": "February 2022 - Mars 2023",
+    "link": "https://helenagingembre.github.io/HelenaGingembre-CV"
+  },
+  {
+    "id": "id-2",
+    "university": "Zaporizhzhia Polytechnic National University",
+    "label": "Organizational Management and Administration",
+    "time": "Septermber 2001 - June 2006"
+  }
+]

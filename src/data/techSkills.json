@@ -1,0 +1,42 @@
+[
+  {
+    "id": "id-1",
+    "label": "GIT"
+  },
+  {
+    "id": "id-2",
+    "label": "HTML5"
+  },
+  {
+    "id": "id-3",
+    "label": "CSS3"
+  },
+  {
+    "id": "id-4",
+    "label": "Sass"
+  },
+  {
+    "id": "id-5",
+    "label": "JavaScript"
+  },
+  {
+    "id": "id-6",
+    "label": "React.js, React Hooks & Components"
+  },
+  {
+    "id": "id-7",
+    "label": "React Redux, WebPack"
+  },
+  {
+    "id": "id-8",
+    "label": "Node.js"
+  },
+  {
+    "id": "id-9",
+    "label": "REST API"
+  },
+  {
+    "id": "id-10",
+    "label": "PHP, YII2 framwork"
+  }
+]

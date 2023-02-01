@@ -1,0 +1,14 @@
+[
+  {
+    "id": "id-1",
+    "label": "ICE CREAM - landing page",
+    "link": "https://vitaliikablukov.github.io/IceCream-group-2/",
+    "tech": "HTML5, Sass, JavaScript"
+  },
+  {
+    "id": "id-2",
+    "label": "Filmoteka",
+    "link": "https://vitaliikablukov.github.io/My-Liberty/",
+    "tech": "HTML5, Sass, JavaScript, REST API"
+  }
+]

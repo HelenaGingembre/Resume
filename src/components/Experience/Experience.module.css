@@ -1,0 +1,40 @@
+.item {
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.company {
+  color: var(--accentColor);
+}
+
+.time {
+  display: block;
+  margin-bottom: 15px;
+
+  font-size: 12px;
+  line-height: 2;
+  color: var(--secondaryTextColor);
+}
+
+.divider {
+  color: #000000;
+}
+
+.duty {
+  font-size: 14px;
+  line-height: 1.71;
+
+  list-style: inside;
+  color: var(--primaryTextColor);
+}

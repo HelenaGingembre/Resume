@@ -1,0 +1,74 @@
+[
+  {
+    "id": "id-4",
+    "profession": "Junior Frontend Developer",
+    "company": "freelance",
+    "time": "February 2017 - December 2018",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Teamwork experience."
+      },
+
+      {
+        "id": "3",
+        "duty": "Experience in web application development using Wordpress."
+      },
+      {
+        "id": "4",
+        "duty": "Experience in creating a landing page on YII2 PHP Framework."
+      },
+      {
+        "id": "5",
+        "duty": "The layout of the web pages with clean cross-browser valid code using Figma."
+      }
+    ]
+  },
+  {
+    "id": "id-1",
+    "profession": "Leader economist",
+    "company": "PrJSC MHP",
+    "time": "2012 - 2017",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Optimization of business processes in the 1c program."
+      },
+      {
+        "id": "2",
+        "duty": "Participation in the development of management accounting methodology"
+      },
+      {
+        "id": "3",
+        "duty": "Data analysis in Excel."
+      },
+      {
+        "id": "4",
+        "duty": "The last 3 years - the best employee of the year."
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "profession": "Economist",
+    "company": "Southern Industrial Company, Ukrainian Mining and Metallurgical Company",
+    "time": "2006 - 2012",
+    "country": "Ukraine",
+    "duties": [
+      {
+        "id": "1",
+        "duty": "Development of optimization measures expenses."
+      },
+      {
+        "id": "2",
+        "duty": "SWOT analysis of the company."
+      },
+      {
+        "id": "3",
+        "duty": "Experience with CRM-system."
+      }
+    ]
+  }
+]

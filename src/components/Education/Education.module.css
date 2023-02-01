@@ -1,0 +1,42 @@
+.item {
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.university {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accentColor);
+}
+
+.education {
+  margin-bottom: 10px;
+  display: block;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #000000;
+  transition: all 250ms var(--timingFn);
+}
+
+.education:hover,
+.education:focus {
+  color: var(--accentColor);
+}
+
+.time {
+  font-size: 12px;
+  line-height: 2;
+  color: var(--secondaryTextColor);
+}
+
+.divider {
+  color: #000000;
+}
