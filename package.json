@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://helenagingembre.github.io/HelenaGingembre-CV/",
+  "homepage": "https://helenagingembre.github.io/Resume/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
