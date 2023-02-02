@@ -42,18 +42,15 @@ function Sidebar({ contacts, techSkills, softSkills, language }) {
             <Language key={id} label={label} />
           ))}
         </ul>
-        {/* <ul>
-          <li className={s.language_item}>
-            <span className={s.text}>French - intermediate (B1)</span>
-          </li>
-          <li className={s.language_item}>
-            <span className={s.text}>English - pre intermediate</span>
-          </li>
-        </ul> */}
       </div>
 
       <div className={s.section}>
-        <a className={s.link} href={sv} target="_blank" rel="noreferrer">
+        <a
+          className={s.link}
+          href={sv}
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+        >
           Download CV
         </a>
       </div>

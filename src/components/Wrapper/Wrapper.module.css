@@ -1,8 +1,18 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
-  max-width: 1200px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
 
   background: #fff;
   box-shadow: var(--boxShadow);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+  }
 }
