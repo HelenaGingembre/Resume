@@ -5,7 +5,7 @@
   --sidebarColor: #ccffcc;
   --sidebarColorHeader: #033c5a;
   --sidebarColorText: #595959;
-  --boxShadow: 5px 9px 20px rgba(0, 0, 0, 0.2);
+  --boxShadow: 5px 9px 20px rgba(0, 0, 0, 0.3);
   --timingFn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
