@@ -1,6 +1,5 @@
 .item {
-  margin-left: 17px;
-
+  margin-left: 15px;
   font-weight: 700;
 }
 
@@ -15,9 +14,8 @@
   width: 50%;
   overflow: hidden;
   white-space: nowrap;
-
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
 
   color: var(--primaryTextColor);
@@ -36,7 +34,7 @@
 
 .name {
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
   color: var(--primaryTextColor);
 }

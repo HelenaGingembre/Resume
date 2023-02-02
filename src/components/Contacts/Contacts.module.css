@@ -4,11 +4,10 @@
 }
 
 .contact:not(:last-child) {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .link {
-  font-size: 12px;
   line-height: 1.83;
   letter-spacing: 0.04em;
   color: var(--sidebarColorText);

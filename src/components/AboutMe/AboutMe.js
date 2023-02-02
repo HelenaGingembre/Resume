@@ -8,7 +8,7 @@ function AboutMe({ commandProjects, ownProjects, experience, education }) {
   return (
     <div className={s.container}>
       <div className={s.section}>
-        <h2 className={s.profession}>Front-end (React) Developer</h2>
+        <h2 className={s.profession}>Front-end Developer</h2>
         <h1 className={s.name}>Olena Izotova(Gingembre)</h1>
         <p className={s.description}>
           I'm a Front-end Developer and looking for an interesting job. I'm with

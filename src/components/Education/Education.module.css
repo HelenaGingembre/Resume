@@ -7,22 +7,19 @@
 }
 
 .university {
-  margin-bottom: 10px;
-
+  margin-bottom: 5px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: var(--accentColor);
 }
 
 .education {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   display: block;
-
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.71;
-  color: #000000;
+  color: var(--primaryTextColor);
   transition: all 250ms var(--timingFn);
 }
 
@@ -38,5 +35,5 @@
 }
 
 .divider {
-  color: #000000;
+  color: var(--primaryTextColor);
 }

@@ -3,14 +3,13 @@
 }
 
 .item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .title {
-  margin-bottom: 15px;
-
+  margin-bottom: 10px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -20,21 +19,18 @@
 
 .time {
   display: block;
-  margin-bottom: 15px;
-
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 2;
   color: var(--secondaryTextColor);
 }
 
 .divider {
-  color: #000000;
+  color: var(--primaryTextColor);
 }
 
 .duty {
-  font-size: 14px;
   line-height: 1.71;
-
   list-style: inside;
   color: var(--primaryTextColor);
 }

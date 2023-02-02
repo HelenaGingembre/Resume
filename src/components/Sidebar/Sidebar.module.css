@@ -9,20 +9,19 @@
 }
 
 .section {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .title {
   margin-bottom: 20px;
-
   font-weight: 700;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.09;
   color: var(--sidebarColorHeader);
 }
 
 .text {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
   color: var(--sidebarColorText);
 }
