@@ -1,12 +1,13 @@
 import Contacts from '../Contacts';
 import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
+import Language from '../Language';
 import PropTypes from 'prop-types';
 import s from './Sidebar.module.css';
 import myPhoto from '../../assets/img/photo.jpg';
 import sv from '../../assets/CV.pdf';
 
-function Sidebar({ contacts, techSkills, softSkills }) {
+function Sidebar({ contacts, techSkills, softSkills, language }) {
   return (
     <aside className={s.sidebar}>
       <img src={myPhoto} alt="Olena Izotova(Gingembre)" className={s.photo} />
@@ -37,13 +38,18 @@ function Sidebar({ contacts, techSkills, softSkills }) {
       <div className={s.section}>
         <h3 className={s.title}>Language</h3>
         <ul>
+          {language.map(({ id, label }) => (
+            <Language key={id} label={label} />
+          ))}
+        </ul>
+        {/* <ul>
           <li className={s.language_item}>
             <span className={s.text}>French - intermediate (B1)</span>
           </li>
           <li className={s.language_item}>
             <span className={s.text}>English - pre intermediate</span>
           </li>
-        </ul>
+        </ul> */}
       </div>
 
       <div className={s.section}>
