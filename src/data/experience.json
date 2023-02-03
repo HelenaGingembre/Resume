@@ -9,11 +9,6 @@
     "country": "Ukraine",
     "duties": [
       {
-        "id": "1",
-        "duty": "Teamwork experience."
-      },
-
-      {
         "id": "3",
         "duty": "Experience in web application development using Wordpress."
       },
