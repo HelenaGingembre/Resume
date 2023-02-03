@@ -11,13 +11,14 @@ function AboutMe({ commandProjects, ownProjects, experience, education }) {
         <h2 className={s.profession}>Front-end Developer</h2>
         <h1 className={s.name}>Olena Izotova(Gingembre)</h1>
         <p className={s.description}>
-          I'm a Front-end Developer and looking for an interesting job. I'm with
-          a passion for learning new technologies and am like working with teams
-          to create user-friendly web applications. I have sound knowledge of
-          HTML5, CSS3, React JavaScript. I speak intermediate French and
-          pre-intermediate English. Eager to develop skills in a fast-paced
-          environment and contribute to the success of a company. Coding,
-          constant learning and working towards a goal are important for me.
+          I am a Front-end Developer looking for an interesting opportunity. I
+          am passionate about constantly learning new technologies and I like
+          working as part of a team to create user-friendly web applications. I
+          have sound knowledge of HTML5, CSS3, React JavaScript. I speak
+          intermediate French and pre-intermediate English. I am eager to
+          develop skills in a dynamic environment and to contribute to the
+          success of the company. Coding, constant learning and working towards
+          a goal are important for me.
         </p>
       </div>
       <div className={s.section}>
