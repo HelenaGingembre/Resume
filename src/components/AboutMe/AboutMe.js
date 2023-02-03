@@ -44,11 +44,22 @@ function AboutMe({ commandProjects, ownProjects, experience, education }) {
         <h3 className={s.title}>Work Experience</h3>
         <ul>
           {experience.map(
-            ({ id, profession, company, time, country, duties }) => (
+            ({
+              id,
+              profession,
+              company,
+              description,
+              link,
+              time,
+              country,
+              duties,
+            }) => (
               <Experience
                 key={id}
                 profession={profession}
                 company={company}
+                description={description}
+                link={link}
                 time={time}
                 country={country}
                 duties={duties}

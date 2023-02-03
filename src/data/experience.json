@@ -1,8 +1,10 @@
 [
   {
-    "id": "id-4",
+    "id": "id-3",
     "profession": "Junior Frontend Developer",
     "company": "freelance",
+    "description": "",
+    "link": "",
     "time": "February 2017 - December 2018",
     "country": "Ukraine",
     "duties": [
@@ -29,6 +31,8 @@
     "id": "id-1",
     "profession": "Leader economist",
     "company": "PrJSC MHP",
+    "description": "the leading Ukrainian international food & agrotech company",
+    "link": "https://mhp.com.ua/en/pro-kompaniu",
     "time": "2012 - 2017",
     "country": "Ukraine",
     "duties": [
@@ -53,7 +57,9 @@
   {
     "id": "id-2",
     "profession": "Economist",
-    "company": "Southern Industrial Company, Ukrainian Mining and Metallurgical Company",
+    "company": "Southern Industrial Company; UGMK",
+    "description": "Ukrainian Mining and Metallurgical Company",
+    "link": "https://ugmk.ua/en/",
     "time": "2006 - 2012",
     "country": "Ukraine",
     "duties": [
