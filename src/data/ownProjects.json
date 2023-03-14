@@ -3,36 +3,40 @@
     "id": "id-1",
     "label": "Web Studio",
     "link": "https://helenagingembre.github.io/goit-markup-hw-08/",
+    "linkGitHub": "https://github.com/HelenaGingembre/goit-markup-hw-08",
     "tech": "HTML5, Sass, JavaScript"
   },
   {
     "id": "id-2",
     "label": "Phonebook",
     "link": "https://helenagingembre.github.io/goit-react-hw-08-phonebook",
+    "linkGitHub": "https://github.com/HelenaGingembre/goit-react-hw-08-phonebook",
     "tech": "React (Hooks, Routers, Redux)"
   },
   {
     "id": "id-3",
     "label": "Dairy & Beef Global Solutions (DBGS)",
     "link": "http://dbgs.co.nz/",
-    "tech": "html,css, js, php, yii2"
+
+    "tech": "HTML5, CSS3, js, php, yii2"
   },
   {
     "id": "id-4",
-    "label": "Spartacusfunds landing page",
+    "label": "Spartacusfunds (LandingPage)",
     "link": "http://spartacusfunds.com",
-    "tech": "html,css, js, php, yii2"
+
+    "tech": "HTML5, CSS3, js, php, yii2"
   },
   {
     "id": "id-5",
     "label": "Travel blog",
     "link": "https://travel-lovers.org/",
-    "tech": "html,css, js, wordpress, php"
+    "tech": "HTML5, CSS3, js, wordpress, php"
   },
   {
     "id": "id-6",
     "label": "Wedding website",
     "link": "http://guillaumehelena.com/",
-    "tech": "html,css, js, wordpress, php"
+    "tech": "HTML5, CSS3, js, wordpress, php"
   }
 ]

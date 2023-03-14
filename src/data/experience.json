@@ -5,9 +5,13 @@
     "company": "freelance",
     "description": "",
     "link": "",
-    "time": "February 2017 - December 2018",
+    "time": "February 2017 - now",
     "country": "Ukraine",
     "duties": [
+      {
+        "id": "2",
+        "duty": "Experience in web application development using React.js"
+      },
       {
         "id": "3",
         "duty": "Experience in web application development using Wordpress."

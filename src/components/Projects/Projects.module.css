@@ -7,9 +7,11 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.link {
+.link,
+.link2 {
   margin-right: 5px;
   width: 50%;
   overflow: hidden;
@@ -21,13 +23,15 @@
   transition: color 250ms var(--timingFn);
 }
 
-.link:after {
+.link2:after {
   margin-left: 5px;
-  content: '..............................................................................................................................';
+  content: '...............................................';
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link2:hover,
+.link2:focus {
   color: var(--accentColor);
 }
 

@@ -3,12 +3,21 @@
     "id": "id-1",
     "label": "ICE CREAM - landing page",
     "link": "https://vitaliikablukov.github.io/IceCream-group-2/",
+    "linkGitHub": "https://github.com/VitaliiKablukov/IceCream-group-2",
     "tech": "HTML5, Sass, JavaScript"
   },
   {
     "id": "id-2",
     "label": "Filmoteka",
     "link": "https://vitaliikablukov.github.io/My-Liberty/",
+    "linkGitHub": "https://github.com/VitaliiKablukov/My-Liberty",
     "tech": "HTML5, Sass, JavaScript, REST API"
+  },
+  {
+    "id": "id-3",
+    "label": "Pets-project",
+    "link": "https://pets-project-frontend.vercel.app/",
+    "linkGitHub": "https://github.com/Semen-Gomzyak/pets-project-frontend",
+    "tech": "React.js, Node.js, Redux, Redux Toolkit "
   }
 ]
