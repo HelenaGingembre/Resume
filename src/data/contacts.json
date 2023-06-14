@@ -11,21 +11,26 @@
   },
   {
     "id": "id-3",
+    "link": "",
+    "text": "residence permit Luxembourg (authorized to work)"
+  },
+  {
+    "id": "id-4",
     "link": "mailto:e.izotovagingembre@outlook.com",
     "text": "e.izotovagingembre@outlook.com"
   },
   {
-    "id": "id-4",
+    "id": "id-5",
     "link": "https://helenagingembre.github.io/HelenaGingembre-CV/",
     "text": "Portfolio"
   },
   {
-    "id": "id-5",
+    "id": "id-6",
     "link": "https://github.com/HelenaGingembre/",
     "text": "GitHub"
   },
   {
-    "id": "id-6",
+    "id": "id-7",
     "link": "http://www.linkedin.com/in/olena-izotova/",
     "text": "LinkedIn"
   }
