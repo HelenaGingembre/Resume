@@ -9,7 +9,7 @@ function AboutMe({ commandProjects, ownProjects, experience, education }) {
     <div className={s.container}>
       <div className={s.section}>
         <h2 className={s.profession}>Front-end Developer</h2>
-        <h1 className={s.name}>Olena Izotova(Gingembre)</h1>
+        <h1 className={s.name}>Olena Izotova (Gingembre)</h1>
         <p className={s.description}>
           I am a Front-end Developer looking for an interesting opportunity. I
           am passionate about constantly learning new technologies and I like

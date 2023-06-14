@@ -10,7 +10,9 @@ import sv from '../../assets/CV.pdf';
 function Sidebar({ contacts, techSkills, softSkills, language }) {
   return (
     <aside className={s.sidebar}>
-      <img src={myPhoto} alt="Olena Izotova(Gingembre)" className={s.photo} />
+      <div className={s.section}>
+        <img src={myPhoto} alt="Olena Izotova(Gingembre)" className={s.photo} />
+      </div>
       <div className={s.section}>
         <h3 className={s.title}>Contacts</h3>
         <ul>

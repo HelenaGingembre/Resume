@@ -9,8 +9,9 @@
 }
 
 .photo {
-  border-radius: 35%;
-  width: 50%;
+  border-radius: 10%;
+  width: 90%;
+  margin: 5%;
 }
 
 .section {
