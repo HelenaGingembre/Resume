@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HelenaGingembre-CV/static/css/main.65992b2e.css",
-    "main.js": "/HelenaGingembre-CV/static/js/main.63e7815c.js",
+    "main.js": "/HelenaGingembre-CV/static/js/main.c96fc1d5.js",
     "static/media/CV.pdf": "/HelenaGingembre-CV/static/media/CV.24260bd2a4a14e7c7312.pdf",
     "static/media/photo.jpg": "/HelenaGingembre-CV/static/media/photo.e875e31058e8ca871c29.jpg",
     "index.html": "/HelenaGingembre-CV/index.html",
     "main.65992b2e.css.map": "/HelenaGingembre-CV/static/css/main.65992b2e.css.map",
-    "main.63e7815c.js.map": "/HelenaGingembre-CV/static/js/main.63e7815c.js.map"
+    "main.c96fc1d5.js.map": "/HelenaGingembre-CV/static/js/main.c96fc1d5.js.map"
   },
   "entrypoints": [
     "static/css/main.65992b2e.css",
-    "static/js/main.63e7815c.js"
+    "static/js/main.c96fc1d5.js"
   ]
 }
