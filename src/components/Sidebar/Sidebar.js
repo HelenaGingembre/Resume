@@ -5,7 +5,7 @@ import Language from '../Language';
 import PropTypes from 'prop-types';
 import s from './Sidebar.module.css';
 import myPhoto from '../../assets/img/photo.jpg';
-import sv from '../../assets/CV.pdf';
+import sv from '../../assets/CVFrontend Developer.pdf';
 
 function Sidebar({ contacts, techSkills, softSkills, language }) {
   return (
