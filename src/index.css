@@ -59,7 +59,9 @@ label {
     padding: 0 !important;
     overflow: hidden;
   }
-
+  .wrapper {
+    flex-direction: row;
+  }
   @page {
     size: 210mm 297mm;
   }
