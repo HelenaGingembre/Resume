@@ -20,5 +20,25 @@
     "link": "https://helenagingembre.github.io/goit-markup-hw-08/",
     "linkGitHub": "https://github.com/HelenaGingembre/goit-markup-hw-08",
     "tech": "HTML5, Sass, JavaScript"
+  },
+
+  {
+    "id": "id-4",
+    "label": "Dairy & Beef Global Solutions (DBGS)",
+    "link": "http://dbgs.co.nz/",
+
+    "tech": "HTML5, CSS3, js, php, yii2"
+  },
+  {
+    "id": "id-5",
+    "label": "Travel blog",
+    "link": "https://travel-lovers.org/",
+    "tech": "HTML5, CSS3, js, wordpress, php"
+  },
+  {
+    "id": "id-6",
+    "label": "Wedding website",
+    "link": "http://guillaumehelena.com/",
+    "tech": "HTML5, CSS3, js, wordpress, php"
   }
 ]
