@@ -1,6 +1,6 @@
 import { Document } from '@react-pdf/renderer';
 import App from './App';
-import { PDFViewer } from '@react-pdf/renderer';
+// import { PDFViewer } from '@react-pdf/renderer';
 
 function MyDocumentPDF() {
   return (
