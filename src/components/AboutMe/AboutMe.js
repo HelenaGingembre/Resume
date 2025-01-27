@@ -3,7 +3,6 @@ import Experience from '../Experience';
 import Education from '../Education';
 import PropTypes from 'prop-types';
 import s from './AboutMe.module.css';
-import { LinkSide } from 'App.styled';
 
 function AboutMe({
   commandProjects,
@@ -15,15 +14,13 @@ function AboutMe({
 }) {
   return (
     <div className={s.container}>
-      {/* <div className={s.link_btn}>
-        <LinkSide onClick={onClick}>{langCv ? 'EN' : 'FR'}</LinkSide>
-      </div> */}
-
       <div className={s.section}>
         <h1 className={s.profession}>
           {langCv ? 'Front-end Developer' : 'Front-end développeur'}
         </h1>
-        <LinkSide onClick={onClick}>{langCv ? 'EN' : 'FR'}</LinkSide>
+        <button href="/" className={s.link_btn} onClick={onClick}>
+          {langCv ? 'FR' : 'EN'}
+        </button>
         <h2 className={s.name}>Olena Izotova (Gingembre)</h2>
 
         {langCv ? (

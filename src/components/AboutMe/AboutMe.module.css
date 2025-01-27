@@ -6,9 +6,30 @@
   flex-direction: column;
 }
 .link_btn {
-  /* position: absolute; */
-  color: brown;
-  padding: 5px auto;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  height: 50px;
+  padding: 5px 20px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  align-content: center;
+
+  cursor: pointer;
+  transition: all 250ms var(--timingFn);
+  color: var(--accentColor);
+  background-color: #fff;
+  border: 2px solid var(--accentColor);
+  border-radius: 25px;
+}
+.link_btn:hover,
+.link_btn:focus {
+  color: var(--accentColor);
+  background-color: transparent;
 }
 .section:not(:last-child) {
   margin-bottom: 40px;

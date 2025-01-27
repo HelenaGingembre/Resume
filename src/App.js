@@ -10,7 +10,6 @@ import ownProjects from './data/ownProjects.json';
 import experience from './data/experience.json';
 import education from './data/education.json';
 import { useState } from 'react';
-// import { LinkSide } from 'App.styled';
 
 function App() {
   const [lang, setLang] = useState(true);
