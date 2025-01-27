@@ -2,17 +2,19 @@ import s from './Experience.module.css';
 
 function Experience({
   profession,
+  profession_fr,
   company,
   description,
   link,
   time,
   country,
   duties,
+  lang,
 }) {
   return (
     <li className={s.item}>
       <h4 className={s.title}>
-        {profession} <span> </span>
+        {lang ? profession : profession_fr} <span> </span>
         {/* <span className={s.company} link={link}>
           {company} 
         </span>*/}
@@ -27,9 +29,9 @@ function Experience({
         <span className={s.divider}> |</span> {country}
       </span>
       <ul>
-        {duties.map(({ id, duty }) => (
+        {duties.map(({ id, duty, duty_fr }) => (
           <li key={id} className={s.duty}>
-            {duty}
+            {lang ? duty : duty_fr}
           </li>
         ))}
       </ul>

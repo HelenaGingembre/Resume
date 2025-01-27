@@ -2,14 +2,20 @@
   padding: 60px 30px;
   flex-grow: 1;
   display: flex;
+  position: relative;
   flex-direction: column;
 }
-
+.link_btn {
+  /* position: absolute; */
+  color: brown;
+  padding: 5px auto;
+}
 .section:not(:last-child) {
   margin-bottom: 40px;
 }
 
 .profession {
+  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;

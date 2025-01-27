@@ -9,8 +9,15 @@ import commandProjects from './data/commandProjects.json';
 import ownProjects from './data/ownProjects.json';
 import experience from './data/experience.json';
 import education from './data/education.json';
+import { useState } from 'react';
+// import { LinkSide } from 'App.styled';
 
 function App() {
+  const [lang, setLang] = useState(true);
+  const handleClick = () => {
+    setLang(!lang);
+  };
+
   return (
     <Wrapper>
       <Sidebar
@@ -18,12 +25,17 @@ function App() {
         techSkills={techSkills}
         softSkills={softSkills}
         language={language}
+        langCv={lang}
       />
+      {/* <LinkSide onClick={handleClick}>{lang ? 'EN' : 'FR'}</LinkSide> */}
+
       <AboutMe
         commandProjects={commandProjects}
         ownProjects={ownProjects}
         experience={experience}
         education={education}
+        onClick={handleClick}
+        langCv={lang}
       />
     </Wrapper>
   );

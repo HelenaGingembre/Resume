@@ -2,33 +2,39 @@
   {
     "id": "id-3",
     "profession": "Junior Frontend Developer",
+    "profession_fr": "Développeur Front-End Junior",
     "company": "freelance",
     "description": "",
     "link": "",
-    "time": "February 2017 - now",
+    "time": "February 2023 - now",
     "country": "Ukraine",
     "duties": [
       {
         "id": "2",
-        "duty": "Experience in web application development using React.js"
+        "duty": "Web application development using React.js",
+        "duty_fr": "Développement d'applications Web avec React.js"
       },
       {
         "id": "3",
-        "duty": "Experience in web application development using Wordpress."
+        "duty": "Web application development using Wordpress",
+        "duty_fr": "Développement d'applications Web avec Wordpress"
       },
       {
         "id": "4",
-        "duty": "Experience in creating a landing page on YII2 PHP Framework."
+        "duty": "Creating a landing page on YII2 PHP Framework",
+        "duty_fr": "Créer une landing page sur YII2 PHP Framework"
       },
       {
         "id": "5",
-        "duty": "The layout of the web pages with clean cross-browser valid code using Figma."
+        "duty": "The layout of the web pages with clean cross-browser valid code using Figma",
+        "duty_fr": "La mise en page des pages Web avec un code propre et valide sur plusieurs navigateurs à l'aide de Figma"
       }
     ]
   },
   {
     "id": "id-1",
     "profession": "Leader economist",
+    "profession_fr": "Leader économique",
     "company": "PrJSC MHP",
     "description": "the leading Ukrainian international food & agrotech company",
     "link": "https://mhp.com.ua/en/pro-kompaniu",
@@ -37,25 +43,30 @@
     "duties": [
       {
         "id": "1",
-        "duty": "Optimization of business processes in the 1c program."
+        "duty": "Optimization of business processes in the 1c program",
+        "duty_fr": "Optimisation des processus d'affaires dans le programme 1c"
       },
       {
         "id": "2",
-        "duty": "Participation in the development of management accounting methodology"
+        "duty": "Participation in the development of management accounting methodology",
+        "duty_fr": "Participation à l'élaboration de la méthodologie de comptabilité de gestion"
       },
       {
         "id": "3",
-        "duty": "Data analysis in Excel."
+        "duty": "Data analysis in Excel",
+        "duty_fr": "Analyse des données dans Excel"
       },
       {
         "id": "4",
-        "duty": "The last 3 years - the best employee of the year."
+        "duty": "The last 3 years - the best employee of the year.",
+        "duty_fr": "Les 3 dernières années – le meilleur employé de l’année"
       }
     ]
   },
   {
     "id": "id-2",
     "profession": "Economist",
+    "profession_fr": "Économiste",
     "company": "Southern Industrial Company; UGMK",
     "description": "Ukrainian Mining and Metallurgical Company",
     "link": "https://ugmk.ua/en/",
@@ -64,15 +75,18 @@
     "duties": [
       {
         "id": "1",
-        "duty": "Development of optimization measures expenses."
+        "duty": "Development of optimization measures expenses",
+        "duty_fr": "Développement de mesures d'optimisation des dépenses"
       },
       {
         "id": "2",
-        "duty": "SWOT analysis of the company."
+        "duty": "SWOT analysis of the company",
+        "duty_fr": "Analyse SWOT de l'entreprise"
       },
       {
         "id": "3",
-        "duty": "Experience with CRM-system."
+        "duty": "Experience with CRM-system",
+        "duty_fr": "Expérience avec le système CRM"
       }
     ]
   }

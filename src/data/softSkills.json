@@ -1,26 +1,32 @@
 [
   {
     "id": "id-1",
-    "label": "Teamwork experience"
+    "label": "Teamwork experience",
+    "label_fr": "Expérience en équipe"
   },
   {
     "id": "id-2",
-    "label": "Responsible and organized"
+    "label": "Responsible and organized",
+    "label_fr": "Responsable et organisé"
   },
   {
     "id": "id-3",
-    "label": "Communicative"
+    "label": "Communicative",
+    "label_fr": "Communicative"
   },
   {
     "id": "id-4",
-    "label": "Hardworking and meet deadlines"
+    "label": "Hardworking and meet deadlines",
+    "label_fr": "Respectant les délais"
   },
   {
     "id": "id-5",
-    "label": "High analytics skills"
+    "label": "High analytics skills",
+    "label_fr": "Excellentes compétences analytiques"
   },
   {
     "id": "id-6",
-    "label": "Open to new knowledge and skills"
+    "label": "Open to new knowledge and skills",
+    "label_fr": "Ouvert à de nouvelles connaissances et compétences"
   }
 ]

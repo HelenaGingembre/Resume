@@ -2,36 +2,43 @@
   {
     "id": "id-1",
     "link": "tel:380502189165",
-    "text": "+38 050 218 91 65"
+    "text": "+38 050 218 91 65",
+    "text_fr": "+38 050 218 91 65"
   },
   {
     "id": "id-2",
     "link": "tel:352661842402",
-    "text": "+352 661 842 402"
+    "text": "+352 661 842 402",
+    "text_fr": "+352 661 842 402"
   },
   {
     "id": "id-3",
     "link": "",
-    "text": "residence permit Luxembourg (authorized to work)"
+    "text": "residence permit Luxembourg (authorized to work)",
+    "text_fr": "permis de séjour Luxembourg (autorisé à travailler)"
   },
   {
     "id": "id-4",
     "link": "mailto:e.izotovagingembre@outlook.com",
-    "text": "e.izotovagingembre@ outlook.com"
+    "text": "e.izotovagingembre@ outlook.com",
+    "text_fr": "e.izotovagingembre@ outlook.com"
   },
   {
     "id": "id-5",
     "link": "https://helenagingembre.github.io/HelenaGingembre-CV/",
-    "text": "Portfolio"
+    "text": "Portfolio",
+    "text_fr": "Portefeuille"
   },
   {
     "id": "id-6",
     "link": "https://github.com/HelenaGingembre/",
-    "text": "GitHub"
+    "text": "GitHub",
+    "text_fr": "GitHub"
   },
   {
     "id": "id-7",
     "link": "http://www.linkedin.com/in/olena-izotova/",
-    "text": "LinkedIn"
+    "text": "LinkedIn",
+    "text_fr": "LinkedIn"
   }
 ]

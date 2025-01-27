@@ -1,18 +1,22 @@
 [
   {
     "id": "id-1",
-    "label": "French - advanced (B2)"
+    "label": "French - advanced (B2)",
+    "label_fr": "Français - avancé (B2)"
   },
   {
     "id": "id-2",
-    "label": "English - pre intermediate"
+    "label": "English - pre intermediate",
+    "label_fr": "Anglais - pré-intermédiaire"
   },
   {
     "id": "id-3",
-    "label": "Ukrainian - native"
+    "label": "Ukrainian - native",
+    "label_fr": "Ukrainien - langue maternelle"
   },
   {
     "id": "id-4",
-    "label": "Russian - native"
+    "label": "Russian - native",
+    "label_fr": "Russian - natif"
   }
 ]
