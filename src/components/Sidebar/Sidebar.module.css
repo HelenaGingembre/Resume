@@ -2,24 +2,28 @@
   padding: 10px;
   background: var(--sidebarColor);
 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.photo {
-  border-radius: 10%;
-  width: 90%;
+  /*display: flex; /* корегуй для друку*/
+  flex-direction: row; /* корегуй для друку*/
+  flex-wrap: wrap; /* корегуй для друку*/
+  width: 50%;
 }
 
 .section {
-  margin: 0px;
+  margin: 0 0 20px 0;
   padding-left: 10px;
-  width: 50%;
   font-size: 12px;
 }
 .section:nth-child(2) {
   margin-top: 40px;
+}
+.section_photo {
+  margin: 0px;
+  padding-left: 10px;
+  align-items: center;
+}
+.photo {
+  border-radius: 10%;
+  width: 90%;
 }
 
 .title {
@@ -65,7 +69,7 @@
   .sidebar {
     padding: 20px;
     width: 30%;
-    flex-direction: column;
+    /*flex-direction: column;/* корегуй для друку*/
   }
   .section {
     margin-top: 20px;
@@ -77,6 +81,6 @@
     margin-top: 20px;
   }
   .photo {
-    width: 100%;
+    width: 50%;
   }
 }

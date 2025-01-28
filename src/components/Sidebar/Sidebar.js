@@ -5,12 +5,13 @@ import Language from '../Language';
 import PropTypes from 'prop-types';
 import styleSidebar from './Sidebar.module.css';
 import myPhoto from '../../assets/img/photo.jpg';
-import sv from '../../assets/CVFrontend Developer.pdf';
+import cv from '../../assets/CV Frontend_OlenaIzotova_en.pdf';
+import cv_fr from '../../assets/CV Frontend_OlenaIzotova_fr.pdf';
 
 function Sidebar({ contacts, techSkills, softSkills, language, langCv }) {
   return (
     <aside className={styleSidebar.sidebar}>
-      <div className={styleSidebar.section}>
+      <div className={styleSidebar.section_photo}>
         <img
           src={myPhoto}
           alt="Olena Izotova(Gingembre)"
@@ -60,7 +61,7 @@ function Sidebar({ contacts, techSkills, softSkills, language, langCv }) {
       <div className={styleSidebar.section}>
         <a
           className={styleSidebar.link}
-          href={sv}
+          href={langCv ? cv : cv_fr}
           target="_blank"
           rel="noreferrer noopener nofollow"
         >

@@ -36,7 +36,7 @@ function AboutMe({
           </p>
         ) : (
           <p className={s.description}>
-            Je suis un développeur Front-end à la recherche d'une opportunité
+            Je suis un développeuse Front-end à la recherche d'une opportunité
             intéressante. Je suis passionnée par l'apprentissage constant de
             nouvelles technologies et j'aime travailler en équipe pour créer des
             applications web conviviales. J'ai de bonnes connaissances en HTML5,

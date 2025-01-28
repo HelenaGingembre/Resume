@@ -2,7 +2,7 @@
   --primaryTextColor: #595959;
   --secondaryTextColor: #208275;
   --accentColor: #208275;
-  --sidebarColor: #ccffccce;
+  --sidebarColor: #ccffcc6b;
   --sidebarColorHeader: #033c5a;
   --sidebarColorText: #595959;
   --boxShadow: 5px 9px 20px rgba(0, 0, 0, 0.3);
@@ -20,7 +20,7 @@ body {
   font-family: 16px;
   background: #f5f7fa;
   /* padding: 40px;  */
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 img {
@@ -54,7 +54,7 @@ label {
   html,
   body {
     height: 100vh; /* Use 100% here to support printing more than a single page*/
-    /* width: 1200px; */
+    width: 1200px;
     margin: 0 !important;
     padding: 0 !important;
     overflow: hidden;
@@ -63,6 +63,6 @@ label {
     flex-direction: row;
   }
   @page {
-    size: 210mm 297mm;
+    /* size: 210mm 297mm; */
   }
 }
