@@ -2,11 +2,13 @@ import s from './Experience.module.css';
 
 function Experience({
   profession,
-  profession_fr,
+
   company,
   description,
+
   link,
   time,
+
   country,
   duties,
   lang,
@@ -14,10 +16,7 @@ function Experience({
   return (
     <li className={s.item}>
       <h4 className={s.title}>
-        {lang ? profession : profession_fr} <span> </span>
-        {/* <span className={s.company} link={link}>
-          {company} 
-        </span>*/}
+        {profession} <span> - </span>
         <a className={s.company} href={link} target="_blank" rel="noreferrer">
           {company}
         </a>

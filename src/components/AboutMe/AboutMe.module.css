@@ -1,5 +1,5 @@
 .container {
-  padding: 60px 30px;
+  padding: 60px 20px;
   flex-grow: 1;
   display: flex;
   position: relative;
@@ -32,7 +32,7 @@
   background-color: transparent;
 }
 .section:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .profession {
@@ -81,7 +81,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 30px 20px;
+    padding: 30px 15px;
     width: 70%;
   }
   .name {

@@ -28,23 +28,23 @@ function AboutMe({
             I am a Front-end Developer looking for an interesting opportunity. I
             am passionate about constantly learning new technologies and I like
             working as part of a team to create user-friendly web applications.
-            I have sound knowledge of HTML5, CSS3, React JavaScript. I speak
-            French and English(pre-intermediate). I am eager to develop skills
-            in a dynamic environment and to contribute to the success of the
-            company. Coding, constant learning and working towards a goal are
-            important for me.
+            I have sound knowledge of HTML5, CSS3, React JavaScript.<br></br> I
+            speak French(B2) and English(pre-intermediate,A2). I am eager to
+            develop skills in a dynamic environment and to contribute to the
+            success of the company. Coding, constant learning and working
+            towards a goal are important for me.
           </p>
         ) : (
           <p className={s.description}>
             Je suis un développeur Front-end à la recherche d'une opportunité
-            intéressante. Je suis passionné par l'apprentissage constant de
+            intéressante. Je suis passionnée par l'apprentissage constant de
             nouvelles technologies et j'aime travailler en équipe pour créer des
             applications web conviviales. J'ai de bonnes connaissances en HTML5,
-            CSS3, React JavaScript. Je parle français et anglais
-            (pré-intermédiaire). Je voudrais de développer des compétences dans
-            un environnement dynamique et de contribuer au succès de
-            l'entreprise. Le codage, l'apprentissage constant et le travail vers
-            un objectif sont importants pour moi..
+            CSS3, React JavaScript.<br></br>Je parle français(B2) et anglais
+            (A2). Je voudrais de développer des compétences dans un
+            environnement dynamique et de contribuer au succès de l'entreprise.
+            La programmation, l'apprentissage constant et le travail vers un
+            objectif sont importants pour moi.
           </p>
         )}
       </div>
@@ -92,21 +92,23 @@ function AboutMe({
             ({
               id,
               profession,
+              profession_fr,
               company,
               description,
-
+              description_fr,
               link,
               time,
+              time_fr,
               country,
               duties,
             }) => (
               <Experience
                 key={id}
-                profession={profession}
+                profession={langCv ? profession : profession_fr}
                 company={company}
-                description={description}
+                description={langCv ? description : description_fr}
                 link={link}
-                time={time}
+                time={langCv ? time : time_fr}
                 country={country}
                 duties={duties}
                 lang={langCv}
@@ -118,15 +120,17 @@ function AboutMe({
       <div className={s.section}>
         <h3 className={s.title}> {langCv ? 'Education' : 'Éducation'}</h3>
         <ul>
-          {education.map(({ id, university, label, time, link }) => (
-            <Education
-              key={id}
-              university={university}
-              label={label}
-              time={time}
-              link={link}
-            />
-          ))}
+          {education.map(
+            ({ id, university, label, label_fr, time, time_fr, link }) => (
+              <Education
+                key={id}
+                university={university}
+                label={langCv ? label : label_fr}
+                time={langCv ? time : time_fr}
+                link={link}
+              />
+            )
+          )}
         </ul>
       </div>
     </div>

@@ -7,6 +7,7 @@
     "description": "",
     "link": "",
     "time": "February 2023 - now",
+    "time_fr": "Février 2023 - present",
     "country": "Ukraine",
     "duties": [
       {
@@ -21,24 +22,26 @@
       },
       {
         "id": "4",
-        "duty": "Creating a landing page on YII2 PHP Framework",
+        "duty": "Landing page creation using YII2 PHP Framework",
         "duty_fr": "Créer une landing page sur YII2 PHP Framework"
       },
       {
         "id": "5",
-        "duty": "The layout of the web pages with clean cross-browser valid code using Figma",
-        "duty_fr": "La mise en page des pages Web avec un code propre et valide sur plusieurs navigateurs à l'aide de Figma"
+        "duty": "Web pages layout with clean cross-browser valid code using Figma",
+        "duty_fr": "Mise en page des pages Web avec un code propre et valide sur plusieurs navigateurs à l'aide de Figma"
       }
     ]
   },
   {
     "id": "id-1",
     "profession": "Leader economist",
-    "profession_fr": "Leader économique",
-    "company": "PrJSC MHP",
+    "profession_fr": "Leader économiste",
+    "company": "  PrJSC MHP",
     "description": "the leading Ukrainian international food & agrotech company",
+    "description_fr": "la société ukrainienne internationale leader dans le domaine de l'agrotechnologie",
     "link": "https://mhp.com.ua/en/pro-kompaniu",
     "time": "2012 - 2017",
+    "time_fr": "2012 - 2017",
     "country": "Ukraine",
     "duties": [
       {
@@ -58,8 +61,8 @@
       },
       {
         "id": "4",
-        "duty": "The last 3 years - the best employee of the year.",
-        "duty_fr": "Les 3 dernières années – le meilleur employé de l’année"
+        "duty": "The best employee of the year from 2015-2017",
+        "duty_fr": "Meilleure employée de l’année de 2015-2017"
       }
     ]
   },
@@ -69,13 +72,15 @@
     "profession_fr": "Économiste",
     "company": "Southern Industrial Company; UGMK",
     "description": "Ukrainian Mining and Metallurgical Company",
+    "description_fr": "Société minière et métallurgique ukrainienne",
     "link": "https://ugmk.ua/en/",
     "time": "2006 - 2012",
+    "time_fr": "2006 - 2012",
     "country": "Ukraine",
     "duties": [
       {
         "id": "1",
-        "duty": "Development of optimization measures expenses",
+        "duty": "Analyzed and optimized expenses",
         "duty_fr": "Développement de mesures d'optimisation des dépenses"
       },
       {

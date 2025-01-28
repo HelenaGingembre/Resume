@@ -26,7 +26,6 @@ function App() {
         language={language}
         langCv={lang}
       />
-      {/* <LinkSide onClick={handleClick}>{lang ? 'EN' : 'FR'}</LinkSide> */}
 
       <AboutMe
         commandProjects={commandProjects}
