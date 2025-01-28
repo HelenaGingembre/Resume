@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/HelenaGingembre-CV/static/css/main.ac61d859.css",
-    "main.js": "/HelenaGingembre-CV/static/js/main.60f2474d.js",
-    "static/media/CVFrontend Developer.pdf": "/HelenaGingembre-CV/static/media/CVFrontend Developer.4405f276db78f427b4ec.pdf",
+    "main.css": "/HelenaGingembre-CV/static/css/main.54476aa1.css",
+    "main.js": "/HelenaGingembre-CV/static/js/main.afe93851.js",
+    "static/media/CV Frontend_OlenaIzotova_fr.pdf": "/HelenaGingembre-CV/static/media/CV Frontend_OlenaIzotova_fr.627a47b9d1553c56f970.pdf",
+    "static/media/CV Frontend_OlenaIzotova_en.pdf": "/HelenaGingembre-CV/static/media/CV Frontend_OlenaIzotova_en.0e6212569e63e5daafa1.pdf",
     "static/media/photo.jpg": "/HelenaGingembre-CV/static/media/photo.e875e31058e8ca871c29.jpg",
     "index.html": "/HelenaGingembre-CV/index.html",
-    "main.ac61d859.css.map": "/HelenaGingembre-CV/static/css/main.ac61d859.css.map",
-    "main.60f2474d.js.map": "/HelenaGingembre-CV/static/js/main.60f2474d.js.map"
+    "main.54476aa1.css.map": "/HelenaGingembre-CV/static/css/main.54476aa1.css.map",
+    "main.afe93851.js.map": "/HelenaGingembre-CV/static/js/main.afe93851.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac61d859.css",
-    "static/js/main.60f2474d.js"
+    "static/css/main.54476aa1.css",
+    "static/js/main.afe93851.js"
   ]
 }
