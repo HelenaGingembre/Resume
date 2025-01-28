@@ -2,10 +2,10 @@
   padding: 10px;
   background: var(--sidebarColor);
 
-  /*display: flex; /* корегуй для друку*/
+  display: flex; /* корегуй для друку*/
   flex-direction: row; /* корегуй для друку*/
   flex-wrap: wrap; /* корегуй для друку*/
-  width: 50%;
+  /* width: 50%; */
 }
 
 .section {
@@ -20,6 +20,8 @@
   margin: 0px;
   padding-left: 10px;
   align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
 }
 .photo {
   border-radius: 10%;
@@ -44,6 +46,8 @@
   align-items: center;
   justify-content: center;
   height: 50px;
+  width: auto;
+  padding: 10px;
 
   font-weight: 700;
   font-size: 12px;
@@ -69,7 +73,7 @@
   .sidebar {
     padding: 20px;
     width: 30%;
-    /*flex-direction: column;/* корегуй для друку*/
+    flex-direction: column; /* корегуй для друку*/
   }
   .section {
     margin-top: 20px;
@@ -79,6 +83,9 @@
   }
   .section:nth-child(2) {
     margin-top: 20px;
+  }
+  .section_photo {
+    width: 100%;
   }
   .photo {
     width: 50%;
