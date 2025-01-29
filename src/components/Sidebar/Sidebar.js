@@ -20,7 +20,7 @@ function Sidebar({ contacts, techSkills, softSkills, language, langCv }) {
       </div>
       <div className={styleSidebar.section}>
         <h3 className={styleSidebar.title}>Contacts</h3>
-        <ul>
+        <ul className={styleSidebar.contactsList}>
           {contacts.map(({ id, link, text, text_fr }) => (
             <Contacts key={id} link={link} text={langCv ? text : text_fr} />
           ))}
@@ -48,8 +48,7 @@ function Sidebar({ contacts, techSkills, softSkills, language, langCv }) {
       </div>
       <div className={styleSidebar.section}>
         <h3 className={styleSidebar.title}>
-          {' '}
-          {langCv ? 'Language' : 'Langue'}
+          {langCv ? 'Languages' : 'Langues'}
         </h3>
         <ul>
           {language.map(({ id, label, label_fr }) => (

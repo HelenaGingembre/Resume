@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-family: 16px;
+  font-size: 20px;
   background: #f5f7fa;
   /* padding: 40px;  */
   /* max-width: 1200px; */
@@ -54,6 +54,7 @@ label {
   html,
   body {
     height: 100vh; /* Use 100% here to support printing more than a single page*/
+
     width: 1200px;
     margin: 0 !important;
     padding: 0 !important;
@@ -61,6 +62,9 @@ label {
   }
   .wrapper {
     flex-direction: row;
+  }
+  .sidebar {
+    flex-direction: column;
   }
   @page {
     /* size: 210mm 297mm; */
