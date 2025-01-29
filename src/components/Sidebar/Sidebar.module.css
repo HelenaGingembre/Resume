@@ -40,7 +40,7 @@
   line-height: 1.71;
   color: var(--sidebarColorText);
 }
-.contactsList li:nth-child(2) a,
+.contactsList li:nth-child(1) a,
 .contactsList li:nth-child(3) a {
   font-size: 18px;
   font-weight: 700;
