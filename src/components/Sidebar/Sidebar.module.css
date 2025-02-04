@@ -2,10 +2,10 @@
   padding: 10px;
   background: var(--sidebarColor);
 
-  /* display: flex; /* корегуй для друку*/
-  /* flex-direction: /* row; корегуй для друку*/
+  display: flex; /* корегуй для друку*/
+  flex-direction: row; /*корегуй для друку*/
   flex-wrap: wrap; /* корегуй для друку*/
-  width: 50%; /* корегуй для друку*/
+  /*width: 50%; /* корегуй для друку*/
 }
 
 .section {
